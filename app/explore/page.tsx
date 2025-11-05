@@ -5,7 +5,7 @@ import ToolCard from "@/components/tool-card";
 import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState } from "react";
+import { useEffect, useMemo, useState, Suspense } from "react";
 
 interface Server {
   name: string;
@@ -19,7 +19,7 @@ interface Server {
   };
 }
 
-export default function ExplorePage() {
+function ExploreContent() {
   const searchParams = useSearchParams();
   const [allTools, setAllTools] = useState<Server[]>([]);
   const [loading, setLoading] = useState(true);
@@ -120,7 +120,7 @@ export default function ExplorePage() {
               {filteredTools.length > 0 ? (
                 filteredTools.map((tool, index) => (
                   <motion.div
-                    key={tool.name}
+                    key={`${tool.author}-${tool.name}`}
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{
@@ -147,5 +147,24 @@ export default function ExplorePage() {
         </motion.div>
       </main>
     </div>
+  );
+}
+
+export default function ExplorePage() {
+  return (
+    <Suspense
+      fallback={
+        <div
+          className="min-h-screen bg-black overflow-x-hidden flex items-center justify-center"
+          style={{
+            backgroundImage: "linear-gradient(135deg, #000000 0%, #0a1e35 100%)",
+          }}
+        >
+          <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-400" />
+        </div>
+      }
+    >
+      <ExploreContent />
+    </Suspense>
   );
 }
