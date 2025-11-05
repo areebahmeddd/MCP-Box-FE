@@ -5,7 +5,7 @@ import ToolCard from "@/components/tool-card";
 import { motion } from "framer-motion";
 import { Search } from "lucide-react";
 import { useSearchParams } from "next/navigation";
-import { useEffect, useMemo, useState, Suspense } from "react";
+import { Suspense, useEffect, useMemo, useState } from "react";
 
 interface Server {
   name: string;
@@ -157,7 +157,8 @@ export default function ExplorePage() {
         <div
           className="min-h-screen bg-black overflow-x-hidden flex items-center justify-center"
           style={{
-            backgroundImage: "linear-gradient(135deg, #000000 0%, #0a1e35 100%)",
+            backgroundImage:
+              "linear-gradient(135deg, #000000 0%, #0a1e35 100%)",
           }}
         >
           <div className="animate-spin rounded-full h-12 w-12 border-b-2 border-cyan-400" />

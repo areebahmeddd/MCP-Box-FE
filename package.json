@@ -1,6 +1,21 @@
 {
   "name": "mcp-box-fe",
   "version": "1.0.0",
+  "description": "Discover, deploy, and test MCPs in isolated sandboxes.",
+  "keywords": [
+    "mcp",
+    "docker",
+    "container",
+    "sandbox",
+    "tools"
+  ],
+  "author": "Areeb Ahmed <hi@areeb.dev>",
+  "license": "MIT",
+  "homepage": "https://mcp-box-fe.vercel.app",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/areebahmed/mcp-box-fe"
+  },
   "scripts": {
     "build": "next build",
     "start": "next start",
@@ -19,6 +34,9 @@
     "@types/node": "^24",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "prettier": "^3.3.3",
+    "prettier-plugin-organize-imports": "^3.2.4",
+    "prettier-plugin-tailwindcss": "^0.6.8",
     "postcss": "^8.5",
     "tailwindcss": "^4.1.9",
     "typescript": "^5"
