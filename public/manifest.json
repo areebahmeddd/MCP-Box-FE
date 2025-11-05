@@ -1,5 +1,5 @@
 {
-  "name": "MCP Box - Your Agent's Gateway",
+  "name": "MCP Box - Open Marketplace for MCP Servers",
   "short_name": "MCP Box",
   "description": "Discover, deploy, and test MCPs in isolated sandboxes.",
   "start_url": "/",
@@ -7,18 +7,18 @@
   "lang": "en",
   "display": "standalone",
   "orientation": "portrait-primary",
-  "background_color": "#faf7f2",
-  "theme_color": "#8b5e3c",
+  "background_color": "#000000",
+  "theme_color": "#ff5252",
   "categories": ["mcp", "docker", "container", "sandbox", "tools"],
   "icons": [
     {
-      "src": "/icon-192x192.png",
+      "src": "/icons/app/logo.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable any"
     },
     {
-      "src": "/icon-512x512.png",
+      "src": "/icons/app/logo.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable any"
