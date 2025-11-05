@@ -29,7 +29,7 @@ export default function WaveBackground() {
             ],
           }}
           transition={{
-            duration: 8,
+            duration: 4,
             repeat: Infinity,
             ease: [0.45, 0.05, 0.55, 0.95],
           }}
@@ -60,7 +60,7 @@ export default function WaveBackground() {
             ],
           }}
           transition={{
-            duration: 6,
+            duration: 3,
             repeat: Infinity,
             ease: [0.4, 0.0, 0.6, 1.0],
           }}
@@ -91,7 +91,7 @@ export default function WaveBackground() {
             ],
           }}
           transition={{
-            duration: 9,
+            duration: 4.5,
             repeat: Infinity,
             ease: [0.65, 0.0, 0.35, 1.0],
           }}
@@ -104,7 +104,7 @@ export default function WaveBackground() {
           opacity: [0.03, 0.06, 0.03],
         }}
         transition={{
-          duration: 4,
+          duration: 2,
           repeat: Infinity,
           ease: "easeInOut",
         }}

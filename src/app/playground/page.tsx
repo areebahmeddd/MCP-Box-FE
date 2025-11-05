@@ -10,9 +10,6 @@ export default function PlaygroundPage() {
             Playground
           </h1>
           <p className="text-xl text-gray-400">Coming Soon</p>
-          <p className="text-sm text-gray-500">
-            Test and experiment with MCP servers in an interactive environment.
-          </p>
         </div>
       </div>
     </>

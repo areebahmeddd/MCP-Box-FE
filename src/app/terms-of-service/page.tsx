@@ -10,9 +10,6 @@ export default function TermsPage() {
             Terms of Service
           </h1>
           <p className="text-xl text-gray-400">Coming Soon</p>
-          <p className="text-sm text-gray-500">
-            We're preparing our terms of service. Check back soon.
-          </p>
         </div>
       </div>
     </>

@@ -13,6 +13,7 @@ export default function Home() {
       className="min-h-screen bg-black overflow-x-hidden relative"
     >
       <WaveBackground />
+      <div className="fixed inset-0 z-[10] backdrop-blur-[16px] pointer-events-none" />
       <Header />
       <main className="relative z-10">
         <LandingSections />

@@ -10,10 +10,6 @@ export default function FAQPage() {
             FAQ
           </h1>
           <p className="text-xl text-gray-400">Coming Soon</p>
-          <p className="text-sm text-gray-500">
-            We're working on bringing you comprehensive answers to frequently
-            asked questions.
-          </p>
         </div>
       </div>
     </>

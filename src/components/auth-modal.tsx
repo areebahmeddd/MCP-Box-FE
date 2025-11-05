@@ -160,7 +160,7 @@ export default function AuthModal({
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
-                    className="mb-6"
+                    className="mb-6 text-center"
                   >
                     <h2 className="text-xl font-bold text-white mb-1.5">
                       Welcome back!
@@ -239,7 +239,7 @@ export default function AuthModal({
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
-                    className="mb-8"
+                    className="mb-8 text-center"
                   >
                     <h2 className="text-2xl font-bold text-white mb-2">
                       Sign in with Email
@@ -347,7 +347,7 @@ export default function AuthModal({
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
-                    className="mb-8"
+                    className="mb-8 text-center"
                   >
                     <h2 className="text-2xl font-bold text-white mb-2">
                       Create Account
@@ -501,7 +501,7 @@ export default function AuthModal({
                     initial={{ opacity: 0, y: -10 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ delay: 0.1 }}
-                    className="mb-8"
+                    className="mb-8 text-center"
                   >
                     <h2 className="text-2xl font-bold text-white mb-2">
                       Reset Password
@@ -568,7 +568,7 @@ export default function AuthModal({
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.5 }}
-                className="mt-6"
+                className="mt-6 text-center"
               >
                 <p className="text-xs text-gray-500">
                   By continuing, you agree to our{" "}

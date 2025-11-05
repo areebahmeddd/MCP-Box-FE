@@ -10,9 +10,6 @@ export default function ProfilePage() {
             Profile
           </h1>
           <p className="text-xl text-gray-400">Coming Soon</p>
-          <p className="text-sm text-gray-500">
-            Manage your profile settings and preferences.
-          </p>
         </div>
       </div>
     </>

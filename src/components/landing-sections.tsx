@@ -87,7 +87,7 @@ export default function LandingSections() {
             type: "spring",
             stiffness: 100,
           }}
-          className="text-6xl md:text-7xl font-bold text-white mb-5 leading-tight"
+          className="text-6xl md:text-7xl font-bold text-white mb-4 leading-tight"
         >
           [<span className="text-[var(--brand-red)]">MCP</span>] Box
         </motion.h1>
@@ -96,7 +96,7 @@ export default function LandingSections() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.5 }}
-          className="text-2xl md:text-3xl text-white/90 font-semibold mb-2"
+          className="text-2xl md:text-3xl text-white/90 font-semibold mb-4"
         >
           An open marketplace for MCP servers
         </motion.p>
@@ -105,7 +105,7 @@ export default function LandingSections() {
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
           transition={{ duration: 0.6, delay: 0.7 }}
-          className="text-lg md:text-xl text-white/80 mb-10 min-h-[2rem]"
+          className="text-lg md:text-xl text-white/80 mb-8 min-h-[2rem]"
         >
           {typed}
           <span className="typing-caret" />

@@ -10,9 +10,6 @@ export default function PrivacyPage() {
             Privacy Policy
           </h1>
           <p className="text-xl text-gray-400">Coming Soon</p>
-          <p className="text-sm text-gray-500">
-            We're crafting our privacy policy to ensure your data is protected.
-          </p>
         </div>
       </div>
     </>
