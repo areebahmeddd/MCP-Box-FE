@@ -1,9 +1,10 @@
-# LLMs.txt for MCP Box (Frontend)
+# LLMs.txt for SuperBox (Frontend)
 
 
 ## Website Overview
 
-MCP Box is a community-driven marketplace and playground for MCP (Model Context Protocol) servers. It lets users discover, evaluate, and connect MCP servers to their AI agents, with optional premium gating and security insights. This repository is the Next.js frontend for browsing servers, viewing details (including security reports), publishing listings, and testing interactions in a chat-style playground.
+SuperBox is a community-driven marketplace and playground for MCP (Model Context Protocol) servers. It lets users discover, evaluate, and connect MCP servers to their AI agents, with optional premium gating and security insights.
+This repository is the Next.js frontend for browsing servers, viewing details (including security reports), publishing listings, and testing interactions in a chat-style playground.
 
 
 ## Site Structure
@@ -39,12 +40,11 @@ MCP Box is a community-driven marketplace and playground for MCP (Model Context 
 
 ## Contact Information
 
-- GitHub: `https://github.com/areebahmeddd/MCP-Box`
-- Website: `https://mcp-box-fe.vercel.app`
-- Author/Org: MCP Box Team
+- GitHub: `https://github.com/areebahmeddd/superbox.ai`
+- Website: `https://superbox-fe.vercel.app`
+- Author/Org: Areeb Ahmed
 
 
 ## License
 
 MIT License
-

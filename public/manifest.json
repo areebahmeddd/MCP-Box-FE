@@ -1,6 +1,6 @@
 {
-  "name": "MCP Box - Open Marketplace for MCP Servers",
-  "short_name": "MCP Box",
+  "name": "SuperBox - Open Marketplace for MCP Servers",
+  "short_name": "SuperBox",
   "description": "Discover, deploy, and test MCPs in isolated sandboxes.",
   "start_url": "/",
   "scope": "/",

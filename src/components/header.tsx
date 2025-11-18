@@ -91,7 +91,7 @@ export default function Header() {
   }, []);
 
   useEffect(() => {
-    fetch("https://api.github.com/repos/areebahmeddd/MCP-Box")
+    fetch("https://api.github.com/repos/areebahmeddd/superbox.ai")
       .then((r) => r.json())
       .then((d) => {
         if (typeof d?.stargazers_count === "number")
@@ -136,7 +136,7 @@ export default function Header() {
         >
           <Link href="/" className="flex items-center">
             <span className="text-white text-xl font-semibold tracking-tight">
-              mcpbox.ai
+              superbox.ai
             </span>
           </Link>
         </motion.div>
@@ -148,7 +148,7 @@ export default function Header() {
           className="hidden md:flex items-center gap-2"
         >
           <motion.a
-            href="https://github.com/areebahmeddd/MCP-Box"
+            href="https://github.com/areebahmeddd/superbox.ai"
             target="_blank"
             rel="noopener noreferrer"
             whileHover={{ scale: 1.05 }}
@@ -285,7 +285,7 @@ export default function Header() {
               >
                 <div>
                   <a
-                    href="https://github.com/areebahmeddd/MCP-Box"
+                    href="https://github.com/areebahmeddd/superbox.ai"
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={() => setMobileMenuOpen(false)}

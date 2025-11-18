@@ -89,7 +89,7 @@ export default function LandingSections() {
           }}
           className="text-6xl md:text-7xl font-bold text-white mb-4 leading-tight"
         >
-          [<span className="text-[var(--brand-red)]">MCP</span>] Box
+          Super [<span className="text-[var(--brand-red)]">Box</span>]
         </motion.h1>
 
         <motion.p

@@ -91,7 +91,7 @@ export default function ServerDetail({ server }: ServerDetailProps) {
   const [showPaywall, setShowPaywall] = useState(false);
   const isPaid = server.pricing && server.pricing.amount > 0;
 
-  const pullCommand = `mcpbox pull --name ${server.name}`;
+  const pullCommand = `superbox pull --name ${server.name}`;
 
   const copyCommand = () => {
     navigator.clipboard.writeText(pullCommand);

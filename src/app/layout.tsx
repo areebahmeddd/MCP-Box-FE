@@ -9,7 +9,7 @@ const _geist = Geist({ subsets: ["latin"] });
 const _geistMono = Geist_Mono({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "MCP Box - Open Marketplace for MCP Servers",
+  title: "SuperBox - Open Marketplace for MCP Servers",
   description: "Discover, deploy, and test MCPs in isolated sandboxes.",
   icons: "/favicon.ico",
 };

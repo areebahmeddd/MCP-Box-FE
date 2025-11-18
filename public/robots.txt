@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://mcp-box-fe.vercel.app/sitemap.xml
+Sitemap: https://superbox-fe.vercel.app/sitemap.xml

@@ -1,5 +1,5 @@
 {
-  "name": "mcp-box-fe",
+  "name": "superbox-fe",
   "version": "1.0.0",
   "description": "Discover, deploy, and test MCPs in isolated sandboxes.",
   "keywords": [
@@ -11,10 +11,10 @@
   ],
   "author": "Areeb Ahmed <hi@areeb.dev>",
   "license": "MIT",
-  "homepage": "https://mcp-box-fe.vercel.app",
+  "homepage": "https://superbox-fe.vercel.app",
   "repository": {
     "type": "git",
-    "url": "https://github.com/areebahmed/mcp-box-fe"
+    "url": "https://github.com/areebahmed/superbox-fe"
   },
   "scripts": {
     "build": "next build",

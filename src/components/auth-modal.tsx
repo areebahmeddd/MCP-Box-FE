@@ -166,7 +166,7 @@ export default function AuthModal({
                       Welcome back!
                     </h2>
                     <p className="text-xs text-gray-400">
-                      Sign in to continue to MCP Box Platform
+                      Sign in to continue to SuperBox Platform
                     </p>
                   </motion.div>
 
@@ -175,10 +175,10 @@ export default function AuthModal({
                       initial={{ opacity: 0, x: -20 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.15 }}
-                      whileHover={{ scale: 1.02, x: 4 }}
+                      whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
                       onClick={() => setAuthStep("signin")}
-                      className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 text-white text-sm font-medium transition-all duration-200 group"
+                      className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 text-white text-sm font-medium transition-colors duration-200 group"
                     >
                       <Mail className="w-4 h-4 text-gray-300 group-hover:text-white transition-colors" />
                       <span>Continue with Email</span>
@@ -188,10 +188,10 @@ export default function AuthModal({
                       initial={{ opacity: 0, x: -20 }}
                       animate={{ opacity: 1, x: 0 }}
                       transition={{ delay: 0.25 }}
-                      whileHover={{ scale: 1.02, x: 4 }}
+                      whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
-                      onClick={() => handleSocialLogin("github")}
-                      className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 text-white text-sm font-medium transition-all duration-200 group"
+                      onClick={() => handleSocialLogin("google")}
+                      className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 text-white text-sm font-medium transition-colors duration-200 group"
                     >
                       <svg
                         xmlns="http://www.w3.org/2000/svg"
@@ -222,11 +222,11 @@ export default function AuthModal({
                     <motion.button
                       initial={{ opacity: 0, x: -20 }}
                       animate={{ opacity: 1, x: 0 }}
-                      transition={{ delay: 0.15 }}
-                      whileHover={{ scale: 1.02, x: 4 }}
+                      transition={{ delay: 0.35 }}
+                      whileHover={{ scale: 1.02 }}
                       whileTap={{ scale: 0.98 }}
-                      onClick={() => handleSocialLogin("google")}
-                      className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 text-white text-sm font-medium transition-all duration-200"
+                      onClick={() => handleSocialLogin("github")}
+                      className="w-full flex items-center justify-center gap-3 px-4 py-2.5 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 hover:border-white/20 text-white text-sm font-medium transition-colors duration-200 group"
                     >
                       <Github className="w-4 h-4 text-gray-300 group-hover:text-white transition-colors" />
                       <span>Continue with GitHub</span>
@@ -353,7 +353,7 @@ export default function AuthModal({
                       Create Account
                     </h2>
                     <p className="text-sm text-gray-400">
-                      Join MCP Box community today
+                      Join SuperBox community today
                     </p>
                   </motion.div>
 
