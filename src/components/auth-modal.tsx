@@ -576,7 +576,7 @@ export default function AuthModal({
                     href="/terms-of-service"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[var(--brand-red)] hover:underline transition-all"
+                    className="text-[var(--brand-red)] underline hover:underline transition-all"
                   >
                     Terms of Service
                   </a>{" "}
@@ -585,7 +585,7 @@ export default function AuthModal({
                     href="/privacy-policy"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-[var(--brand-red)] hover:underline transition-all"
+                    className="text-[var(--brand-red)] underline hover:underline transition-all"
                   >
                     Privacy Policy
                   </a>

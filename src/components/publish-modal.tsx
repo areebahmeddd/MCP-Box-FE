@@ -95,9 +95,6 @@ export default function PublishServerModal({
           >
             <div className="sticky top-0 z-10 flex items-center justify-between px-6 py-3.5 bg-black/60 backdrop-blur-xl">
               <div className="flex items-center gap-3">
-                <div className="flex items-center justify-center w-9 h-9 rounded-xl border border-white/20">
-                  <Upload className="w-4 h-4 text-[var(--brand-red)]" />
-                </div>
                 <div>
                   <h2 className="text-lg font-bold text-white">
                     Publish Server

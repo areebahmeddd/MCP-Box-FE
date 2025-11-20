@@ -192,6 +192,14 @@ export default function Header() {
             <Link href="/playground">Playground</Link>
           </motion.div>
 
+          <motion.div
+            whileHover={{ scale: 1.05 }}
+            whileTap={{ scale: 0.95 }}
+            className="px-4 py-2 pl-2 text-sm text-white hover:text-[var(--brand-red)] transition-colors"
+          >
+            <Link href="/docs">Docs</Link>
+          </motion.div>
+
           {isAuthenticated ? (
             <div ref={dropdownRef} className="relative">
               <motion.button
@@ -312,6 +320,14 @@ export default function Header() {
                     className="flex items-center gap-3 px-4 py-2.5 text-sm text-white hover:bg-white/5 transition-all"
                   >
                     <span>Playground</span>
+                  </Link>
+
+                  <Link
+                    href="/docs"
+                    onClick={() => setMobileMenuOpen(false)}
+                    className="flex items-center gap-3 px-4 py-2.5 text-sm text-white hover:bg-white/5 transition-all"
+                  >
+                    <span>Docs</span>
                   </Link>
 
                   <button
